@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="ejercicios-jdbc" path="$PROJECT_DIR$/ACDT-JDBC" />
+    <project name="ConexionJDBC" path="$PROJECT_DIR$/ConexionJDBC" />
+    <project name="Cierre_Comisiones" path="$PROJECT_DIR$/Cierre_Comisiones" />
+    <project name="Practica_Integradora" path="$PROJECT_DIR$/Practica_Integradora" />
+    <project name="Practica_Integradora" path="$PROJECT_DIR$/Practica-Gestion-de-Flotas-Vicente-Espadas-main" />
+    <option name="workspace" value="true" />
+  </component>
+</project>
