@@ -21,7 +21,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // Asegúrate de añadir el nombre de tu base de datos al final de la URL
-        String url = "jdbc:postgresql://localhost:5432/postghres";
+        String url = "jdbc:postgresql://localhost:5432/postgres";
         String username = "postgres";
         String password = "1234";
 
@@ -141,7 +141,7 @@ public class Main {
         String sql = "SELECT id, nombre, edad FROM usuarios";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql);
-             ResultSet rs = pstmt.executeQuery()) {
+            ResultSet rs = pstmt.executeQuery()) {
 
             System.out.println("--- Lista de Usuarios ---");
             boolean hayDatos = false;
